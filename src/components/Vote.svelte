@@ -23,11 +23,11 @@
         let tie = true;
         //determine max votes
         for(let i = 0; i < votes.length; i++){
+            if(votes[i] != max) tie = false;
             if(votes[i] > max){
                 max = votes[i];
                 maxIndex = i;
             }
-            if(votes[i] != max) tie = false;
         }
         if((maxIndex == $gameStore.spy) && !tie){
             gameStore.update(value => {
