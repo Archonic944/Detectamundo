@@ -1,0 +1,8 @@
+{
+    "version": 1.1,
+    "$schema": "https://github.com/microsoft/vscode-css-languageservice/raw/main/docs/customData.schema.json",
+    "atDirectives": [{
+      "name": "@container",
+      "description": "hello 123"
+    }]
+}

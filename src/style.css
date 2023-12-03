@@ -1,0 +1,46 @@
+* {
+  text-align: center;
+  align-content: center;
+  font-family: "Lucida Grande", monospace;
+}
+
+main {
+  color: black;
+}
+
+h1 {
+  color: darkblue;
+}
+h2 {
+  color: darkslategrey;
+  font-weight: bold;
+  font-size: larger;
+  
+}
+p{
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+button{
+  border: none;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button:active {
+    transform: scale(0.97);
+}
+.blue-button {
+  background-color: rgb(51, 204, 204);
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(31, 164, 184)
+}
+
+.blue-button:hover{
+      background-color: rgb(71, 224, 224);
+}
