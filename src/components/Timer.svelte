@@ -1,6 +1,6 @@
 <svelte:options accessors/>
 <script>
-    import { createEventDispatcher } from "svelte";
+    import { createEventDispatcher, onDestroy } from "svelte";
     //time in seconds
     export let time = 0;
     export let paused = false;
@@ -15,6 +15,9 @@
         }
     }, 1000);
     const dispatch = createEventDispatcher();
+    onDestroy(() => {
+        clearInterval(intervalId[0]);
+    });
 </script>
 
 <main>
