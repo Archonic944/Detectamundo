@@ -5,6 +5,6 @@ A party game to be played locally. A random player is the spy, and they have to 
 
 <br>
 
-[Click here to play!](https://detectamundo--archonic7.repl.co)
+[Click here to play!](https://detectamundo.vercel.app)
 
 </div>
