@@ -57,7 +57,7 @@
                 <button class="blue-button" on:click={() => vote(index)}>Vote</button>
             {/if}
             {#each {length: votes[index]} as _, i}
-            <img src="/src/assets/person-svgrepo-com.svg" alt="voter" width="25" height="25">
+            <img src="/public/assets/person-svgrepo-com.svg" alt="voter" width="25" height="25">
             {/each}
         </div>
     {/each}
