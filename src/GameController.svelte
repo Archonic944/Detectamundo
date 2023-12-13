@@ -29,7 +29,7 @@ import LocationsList from './components/LocationsList.svelte';
   {:else if $gameStore.phase == "game"}
     <Game/>
   {:else if $gameStore.phase == "vote"}
-    <audio src="/public/assets/snd_pling.m4a" preload="auto" autoplay={true} controls={false} loop={false}></audio>
+    <audio src="assets/snd_pling.m4a" preload="auto" autoplay={true} controls={false} loop={false}></audio>
     <Vote/>
   {:else}
     {#if $gameStore.phase == "spyguessed"}
